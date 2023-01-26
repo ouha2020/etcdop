@@ -1,0 +1,12 @@
+apiVersion: etcd.cicd.com/v1alpha1
+kind: EtcdCluster
+metadata:
+  labels:
+    app.kubernetes.io/name: etcdcluster
+    app.kubernetes.io/instance: etcdcluster-sample
+    app.kubernetes.io/part-of: etcdop
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: etcdop
+  name: etcdcluster-sample
+spec:
+  # TODO(user): Add fields here
